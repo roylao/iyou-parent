@@ -23,7 +23,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_notice")
+@TableName("t_sys_notice")
 public class Notice extends Model<Notice> {
 
     private static final long serialVersionUID = 1L;

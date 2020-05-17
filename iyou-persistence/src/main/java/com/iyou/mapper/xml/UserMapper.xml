@@ -37,7 +37,7 @@
 
     <!-- 等同于编写一个普通 list 查询，mybatis-plus 自动替你分页 -->
     <select id="selectPageByConditionUser"  resultMap="UserModel">
-        select u.*,r.role_name from tb_user u,tb_user_to_role t ,tb_role r
+        select u.*,r.role_name from t_sys_user u,t_sys_user_role t ,t_sys_role r
         where u.user_no =t.user_no AND  t.role_code =r.role_code and r.role_name = 'user'
         <if test="info != null and info != '' ">
             and (u.mobile like concat('%',#{info},'%')  or u.user_name like concat('%',#{info},'%'))

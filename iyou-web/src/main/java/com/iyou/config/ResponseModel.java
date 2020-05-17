@@ -2,7 +2,7 @@ package com.iyou.config;
 
 /**
  * 统一返回相应参数实体类
- * @author iyou 53182347@qq.com
+ * @author iyou
  */
 
 import org.springframework.web.context.request.RequestContextHolder;

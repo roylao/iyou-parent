@@ -23,7 +23,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_role_menu")
+@TableName("t_sys_role_menu")
 public class RoleToMenu extends Model<RoleToMenu> {
 
     private static final long serialVersionUID = 1L;

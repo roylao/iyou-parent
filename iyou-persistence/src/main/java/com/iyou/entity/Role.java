@@ -22,7 +22,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_role")
+@TableName("t_sys_role")
 public class Role extends Model<Role> {
 
     private static final long serialVersionUID = 1L;

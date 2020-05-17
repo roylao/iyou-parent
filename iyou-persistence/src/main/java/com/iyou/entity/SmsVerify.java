@@ -23,7 +23,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_sms_verify")
+@TableName("t_sys_sms_verify")
 public class SmsVerify extends Model<SmsVerify> {
 
     private static final long serialVersionUID = 1L;

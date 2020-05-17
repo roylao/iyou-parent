@@ -68,6 +68,18 @@ public class ShiroConfig {
         // 访问401和404页面不通过我们的Filter
         //通过http://127.0.0.1:9527/druid/index.html 访问 iyou/iyou
         filterRuleMap.put("/druid/**", "anon");
+        //放行static
+        filterRuleMap.put("/AdminLTE/**", "anon");
+        filterRuleMap.put("/bootstrap/**", "anon");
+        filterRuleMap.put("/bootstrap/js/*", "anon");
+        filterRuleMap.put("/cron/**", "anon");
+        filterRuleMap.put("/flat_ui/**", "anon");
+        filterRuleMap.put("/font-awesome/**", "anon");
+        filterRuleMap.put("/Ionicons/**", "anon");
+        filterRuleMap.put("/iview/**", "anon");
+        filterRuleMap.put("/layer/**", "anon");
+        filterRuleMap.put("/libs/**", "anon");
+        filterRuleMap.put("/common.js", "anon");
         //放行webSocket
         filterRuleMap.put("/websocket/*", "anon");
         //放行swagger

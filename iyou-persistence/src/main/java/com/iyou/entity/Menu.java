@@ -23,7 +23,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_menu")
+@TableName("t_sys_menu")
 public class Menu extends Model<Menu> {
 
     private static final long serialVersionUID = 1L;

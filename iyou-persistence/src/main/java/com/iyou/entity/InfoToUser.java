@@ -23,7 +23,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_info_user")
+@TableName("t_sys_info_user")
 public class InfoToUser extends Model<InfoToUser> {
 
     private static final long serialVersionUID = 1L;

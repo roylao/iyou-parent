@@ -23,7 +23,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-@TableName("t_user_thirdparty")
+@TableName("t_sys_user_thirdparty")
 public class UserThirdparty extends Model<UserThirdparty> {
 
     private static final long serialVersionUID = 1L;
